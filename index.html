@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador de Texto</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+               
+    </head>
+    <body>
+        <main>
+            <section id="izquierda">
+                <img id="logo" src="imagenes/logo.png" alt="Logo de la Alura">
+            </section>
+                
+            <section id="central">
+                <textarea id="mensaje" name="" placeholder="Ingrese el texto aquí" cols="38" rows="14"></textarea>
+                <p class="advertencia"><span id="admiracion">!</span> Solo letras minúsculas y sin acentos</p>
+                <button id="encriptar">Encriptar</button>
+                <button id="desencriptar">Desencriptar</button>
+            </section>
+
+            <section id="derecha">
+                <div id="textofinal">
+                    <img id="muneco" src="imagenes/muneco.png" alt="muñeco">
+                    <p class="text1">Ningún mensaje fue encontrado</p>
+                    <p class="text2">Ingrese el texto que desees encriptar o desencriptar</p>
+                </div>
+                <button id="copiar">Copiar</button>
+            </section>
+        </main>
+        
+        <script src="crypt.js"></script>
+    </body>
+</html>
